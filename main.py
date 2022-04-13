@@ -45,10 +45,6 @@ def f(mat):
     mat[0] = 0
 
 if __name__ == '__main__':
-    bla = np.ones((10,5))
-    print(bla)
-    help_mat = np.array([[i for i in range(10)] for j in range(5)])
-    help_mat[0][0] = 0.1
-    print(help_mat)
+    
     args = get_args()
     main(args)
